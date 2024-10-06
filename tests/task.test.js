@@ -31,3 +31,9 @@ describe('Task API', () => {
         expect(response.body.title).toBe('Sample Task');
     });
 });
+
+// tests/example.test.js
+test('sample test', () => {
+    expect(true).toBe(true);
+  });
+  
